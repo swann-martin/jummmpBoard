@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}jummmp Board | Job
+{% endblock %}
+
+{% block body %}
+
+
+	<div class=" bg-gradient-to-r from-indigo-600 to-[#307eb5] text-white p-10 min-h-screen w-full">
+		<h1 class="text-4xl text-center">{{offre.nom}}</h1>
+
+		<div class="container mx-auto px-4">
+			{% include "job/_offre.html.twig" %}
+
+			<a href="{{ path('app_job') }}" class="inline-block bg-[#feb523] rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">Back to list</a>
+
+		</div>
+	</div>
+{% endblock %}

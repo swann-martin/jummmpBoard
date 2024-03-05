@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}jummmp Board | Job
+{% endblock %}
+
+{% block body %}
+
+
+	<div class=" bg-gradient-to-r from-indigo-600 to-[#307eb5] text-white p-10 min-h-screen w-full">
+		<h1 class="text-4xl text-center">Jummmp Board !</h1>
+
+		<div class="container mx-auto px-4">
+			<h1 class="text-4xl text-center py-5 ">Nouvelle Offre</h1>
+			{{form_start(form)}}
+			{{form_end(form)}}
+
+		</div>
+	</div>
+{% endblock %}

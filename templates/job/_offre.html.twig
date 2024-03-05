@@ -1,0 +1,19 @@
+<div class="w-full shadow-md rounded-lg p-4 m-5 bg-gray-100 text-gray-800">
+	<h2>
+		<a href="{{ path('app_job_show', {'id': offre.id}) }}">
+			<strong>{{ offre.nom }}</strong>
+			- ({{ offre.salaire }}€)</a>
+	</h2>
+
+	{{ offre.description }}
+	<p class="py-2">
+		Service :
+		{{offre.service.nom}}
+	</p>
+
+	<p class="py-2">
+		{% for tag in offre.tags %}
+			<span class="inline-block bg-[#feb523] rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">{{ tag.nom }}</span>
+		{% endfor %}
+	</p>
+</div>
