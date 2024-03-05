@@ -51,10 +51,10 @@ We welcome contributions from the community. If you'd like to contribute, please
 
 ## Licensing
 
-The code in this project is licensed under [INSERT LICENSE HERE].
+This project is licensed under the terms of the Apache-2.0 license.
 
 ## Contact
 
-For any queries or feedback, please contact [INSERT CONTACT INFORMATION HERE].
+For any queries or feedback, please contact [us](mailto:contact@swannmartin.xyz) .
 
 Enjoy using jummmp Board for your recruitment needs!
